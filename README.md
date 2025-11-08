@@ -52,16 +52,7 @@ streamlit run main.py
 
 Once the app launches in your browser, upload an image.
 The model will analyze it and display a generated caption below.
-
-Project Structure
-├── main.py                # Streamlit app entry point
-├── model/
-│   ├── densenet201_model.h5   # Trained model file (if applicable)
-│   └── tokenizer.pkl          # Tokenizer for text generation
-├── requirements.txt       # Python dependencies
-├── README.md              # Project documentation
-└── assets/                # Sample images or screenshots
-
+ 
 Example Output
 
 Input Image: a man riding a horse on a beach
@@ -69,14 +60,4 @@ Generated Caption:
 
 “A person riding a horse along the shore under a bright sky.”
 
-Future Improvements
 
-Add support for multiple caption styles (formal, creative, etc.).
-
-Integrate multilingual caption generation.
-
-Improve inference speed with model optimization and quantization.
-
-License
-
-This project is released under the MIT License — free to use, modify, and share.
