@@ -39,7 +39,7 @@ Pillow (for image processing)
 
 Installation and Usage
 1. Clone this repository
-git clone https://github.com/your-username/image-caption-generator.git
+git clone https://github.com/bunny182005/image_captioning.git
 cd image-caption-generator
 
 2. Install dependencies
